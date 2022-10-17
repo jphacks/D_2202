@@ -8,7 +8,7 @@ package main
 
 func main() {
 	// ラベル抽出
-	filename_label := "./img/platanus.jpg"
+	filename_label := "./img/cherry_blossom.jpg"
 	println("################################################################")
 	println("Now starting a label-detect demo .... ")
 	println("################################################################")
@@ -26,5 +26,5 @@ func main() {
 	println("################################################################")
 	println("Now starting a web-detect demo .... ")
 	println("################################################################")
-	detectLandmarks(filename_web)
+	detectWeb(filename_web)
 }
